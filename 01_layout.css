@@ -1,7 +1,14 @@
 .class{
-    font-size: 250%;
+    width: 30%;
 }
-p{
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+.sidebar{
+    width: 20%;
+    box-sizing: border-box;
     border: dashed;
-    border-color: black;
+    border: 8px solid black;
 }
