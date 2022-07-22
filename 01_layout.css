@@ -1,3 +1,8 @@
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
 .class{
     width: 30%;
 }
@@ -17,15 +22,44 @@
     margin: 5px;
     padding: 5px;
     border: dashed;
+    text-align: center;
     background-color: aqua;
 }
-.leftbar{
+.moji{
+    text-align: center;
+}
+.rightbar{
     width: 70%;
     flex-direction: row;
-    background-color: aqua;
     /*border: dashed;*/
 }
 .center{
     width: 5px;
     flex-direction: row;
+}
+.right_1{
+    border: dashed;
+    text-align: center;
+}
+.right_2{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.right_2_s{
+    margin-top: 5px;
+    margin-bottom: 5px;
+   /* flex-direction: column;*/
+    width: 30%;
+    border: dashed;
+    text-align: center;
+}
+.right_3{
+    border: dashed;
+}
+.right_3_s{
+    margin: 5px;
+    padding: 5px;
+    border: dashed;
+    text-align: center;
 }
