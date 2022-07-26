@@ -18,7 +18,6 @@
     width: 30%;
     flex-direction: row;
     border: dashed;
-    background-color: yellow;
 }
 .sidebar_f{
     /*width: 30%;
@@ -27,7 +26,7 @@
     padding: 5px;
     border: dashed;
     text-align: center;
-    /*background-color: aqua;*/
+    background-color: yellow;
 }
 .moji{
     text-align: center;
@@ -38,7 +37,7 @@
     /*border: dashed;*/
 }
 .center{
-    width: 5px;
+    width: 10px;
     flex-direction: row;
 }
 .right_1{
