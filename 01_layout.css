@@ -6,6 +6,9 @@
 .class{
     width: 30%;
 }
+.header{
+    height: 25px;
+}
 .main{
     display: flex;
     flex-direction: row;
@@ -23,7 +26,7 @@
     padding: 5px;
     border: dashed;
     text-align: center;
-    background-color: aqua;
+    /*background-color: aqua;*/
 }
 .moji{
     text-align: center;
@@ -55,6 +58,7 @@
     text-align: center;
 }
 .right_3{
+    height: 300px;
     border: dashed;
 }
 .right_3_s{
