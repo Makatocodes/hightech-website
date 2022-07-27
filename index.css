@@ -1,0 +1,84 @@
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(236, 250, 252);
+}
+.class{
+    width: 30%;
+}
+.header{
+    height: 25px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+.sidebar{
+    width: 30%;
+    flex-direction: row;
+    border: dashed;
+    border-color: rgb(220, 243, 250);
+    background-color:rgb(220, 243, 250);
+}
+.sidebar_f{
+    /*width: 30%;
+      flex-direction: column;*/
+    margin: 5px;
+    padding: 5px;
+    border: dashed;
+    text-align: center;
+    background-color: lightblue;
+    border-color:  lightblue;
+    color: white;
+}
+.moji{
+    text-align: center;
+    color: gray;
+}
+.rightbar{
+    width: 70%;
+    flex-direction: row;
+    /*border: dashed;*/
+}
+.center{
+    width: 10px;
+    flex-direction: row;
+}
+.right_1{
+    border: dashed;
+    text-align: center;
+    background-color: lightblue;
+    border-color: lightblue;
+    color: gray;
+}
+.right_2{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: white;
+}
+.right_2_s{
+    margin-top: 5px;
+    margin-bottom: 5px;
+   /* flex-direction: column;*/
+    width: 30%;
+    border: dashed;
+    border-color: rgb(165, 164, 164);
+    text-align: center;
+}
+.right_3{
+    height: 300px;
+    border: dashed;
+    border-color: rgb(165, 164, 164);
+    background-color: white;
+}
+.right_3_s{
+    margin: 5px;
+    padding: 5px;
+    border: dashed;
+    text-align: center;
+    border-color: rgb(165, 164, 164);
+    background-color: white;
+}
