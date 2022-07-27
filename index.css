@@ -16,7 +16,7 @@
     flex-grow: 1;
 }
 .sidebar{
-    width: 30%;
+    width: 20%;
     flex-direction: row;
     border: dashed;
     border-color: rgb(220, 243, 250);
@@ -28,7 +28,7 @@
     margin: 5px;
     padding: 5px;
     border: dashed;
-    text-align: center;
+    text-align: left;
     background-color: lightblue;
     border-color:  lightblue;
     color: white;
@@ -38,7 +38,7 @@
     color: gray;
 }
 .rightbar{
-    width: 70%;
+    width: 80%;
     flex-direction: row;
     /*border: dashed;*/
 }
@@ -64,21 +64,29 @@
     margin-bottom: 5px;
    /* flex-direction: column;*/
     width: 30%;
-    border: dashed;
+    border: solid;
+    border-width: thin;
     border-color: rgb(165, 164, 164);
     text-align: center;
 }
 .right_3{
     height: 300px;
-    border: dashed;
+    border: solid;
+    border-width: thin;
     border-color: rgb(165, 164, 164);
     background-color: white;
 }
 .right_3_s{
     margin: 5px;
     padding: 5px;
-    border: dashed;
-    text-align: center;
+    border: solid;
+    border-width: thin;
+    text-align: left;
     border-color: rgb(165, 164, 164);
     background-color: white;
 }
+.right_3_moji{
+    text-align: left;
+    border-color: rgb(165, 164, 164);
+}
+
