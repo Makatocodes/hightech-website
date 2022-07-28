@@ -1,3 +1,9 @@
+.R.ipg{
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
 .container{
     width: 100vw;
     display: flex;
@@ -58,6 +64,7 @@
     flex-wrap: nowrap;
     justify-content: space-between;
     background-color: white;
+    color: gray;
 }
 .right_2_s{
     margin-top: 5px;
@@ -85,8 +92,8 @@
     border-color: rgb(165, 164, 164);
     background-color: white;
 }
-.right_3_moji{
-    text-align: left;
-    border-color: rgb(165, 164, 164);
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
 }
-
